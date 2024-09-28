@@ -1,2 +1,18 @@
-# Xrpck
-Tool that exploits the WordPress resource “xmlrpc.php” to perform a brute-force dictionary attack on a user to extract their password.
+## Execution
+
+```
+  git clone https://github.com/666aalexx/Xrpck.git
+  
+  cd Xrpck/
+  
+  chmod +x xrpck.sh
+  
+  ./xrpck.sh -u user -w wordlist -U URL
+```
+
+### Installation
+```
+  chmod +x install.sh
+
+  ./install.sh
+```
